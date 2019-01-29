@@ -1,0 +1,21 @@
+{
+    "name": "kield-01/insta-tag",
+    "type": "library",
+    "require": {
+        "fabpot/goutte": "^3.2",
+        "kield01/php-query": "^0.1.0",
+        "symfony/var-dumper": "^4.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roman Kozin",
+            "email": "romanko95.rk@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "KielD01\\InstaTag": "src/"
+        }
+    }
+}
